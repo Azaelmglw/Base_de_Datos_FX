@@ -214,8 +214,4 @@ public class ModelMain {
     public void setEmail(String email){
         this.app_output.add(1, email);
     }
-    
-    public ResultSet getResultSet(){
-        return psql_result_set;
-    }
 }
